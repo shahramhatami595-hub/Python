@@ -1,12 +1,21 @@
-Number1 = int(input("Enter a number:"))
+Age = int(input("Please enter your age:"))
 
-Number2 = int(input("Enter a number:"))
+if(Age <= 0):
 
-if(Number1 != Number2):
+    print("Invalid input!")
 
-    print("Number one and Number two are diffrent!")
-    
+elif(Age < 13):
+
+    print("You are a child!")
+
+elif(Age >= 13 and Age <= 19):
+
+    print("You are teenger!")
+
+elif(Age >= 20 and Age <= 64):
+
+    print("You are adult!")
+
 else:
-    print("Number one and Number two are the same!")
-
     
+    print("You are senior!")
