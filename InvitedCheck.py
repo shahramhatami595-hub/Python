@@ -1,10 +1,6 @@
-guests = ["sara","samim","shahram","alis","hadi","quasim"]
-name = input("What is your name?").lower()
-Age = int(input("How old are you?"))
-
-if (name in guests and Age > 18):
-    print("Welcome you are invited!")
-elif(name in guests and Age <= 18):
-    print("You are too yong for this event!")
-else:
-    print("You are not in the list!")
+numbers = [10,20,30,40,50]
+total = 0
+for i in numbers:
+    total += i
+    print(f"Current total: {total}")
+print(f"The sum of all numbers are :{total}")
